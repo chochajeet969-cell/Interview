@@ -1,0 +1,29 @@
+interview/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── interviews/
+│   │   ├── page.tsx
+│   │   └── [slug]/
+│   │       └── page.tsx
+│   ├── about/page.tsx
+│   └── submit/page.tsx
+│
+├── components/
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── InterviewCard.tsx
+│   ├── InterviewPlayer.tsx
+│   ├── SearchBar.tsx
+│   └── Filters.tsx
+│
+├── lib/
+│   ├── sanity.ts
+│   └── seo.ts
+│
+├── public/
+│   └── captions/
+│       └── sample.vtt
+│
+└── styles/
+    └── globals.css
